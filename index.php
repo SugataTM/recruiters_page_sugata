@@ -1,6 +1,6 @@
 <?php
 include "partials/_login_header.php";
-// harsh
+// harshit
 include "database/config.php";
 if (isset($_POST["user_login"])) {
 
