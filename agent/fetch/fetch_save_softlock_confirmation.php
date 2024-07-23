@@ -8,8 +8,8 @@ $AgentId = $data["AgentId"];
 $sql="Update userprojectdetails set status='confirm' where AgentId='$AgentId' and UserId='$UserId';";
 $result = $conn->query($sql);
 
-$sql="delete from userprojectdetails where UserId='$UserId' and status='softlock';";
-$result = $conn->query($sql);
+// $sql="delete from userprojectdetails where UserId='$UserId' and status='softlock';";
+// $result = $conn->query($sql);
 
 
 if($result){

@@ -237,6 +237,9 @@ function softlockUser(UserId,projectId) {
         //change the class and text of softlock button
         const softlockBtn = userElement.querySelector("#search-softlock-btn");
         softlockBtn.disabled=true;
+        const softlockImage=userElement.querySelector(".search_user_status");
+        softlockImage.src="../images/softlock.svg";
+
 
       } else {
         showNotification("Error: " + data.message, "error");
@@ -278,6 +281,8 @@ function confirmUser(UserId,projectId) {
         //set to disable confirm button
         const confirmBtn = userElement.querySelector(".search-confirm-btn");
         confirmBtn.disabled=true;
+        const confirmImage=userElement.querySelector(".search_user_status");
+        confirmImage.src="../images/confirm.svg";
         
       } else {
         showNotification("Error: " + data.message, "error");

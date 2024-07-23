@@ -8,7 +8,7 @@ $sql="SELECT u.UserId,ud.FirstName, ud.LastName, ud.Email, u.Phone, p.ProjectNam
 join `users` u on ud.UserId=u.UserId 
 join `userprojectdetails` upd on upd.UserId=u.UserId 
 join `project` p on p.ProjectId=upd.ProjectId
-where upd.AgentId=$AgentId and upd.status='confirm';";
+where upd.AgentId='$AgentId' and upd.status='confirm';";
 
 $result = $conn->query($sql);
 

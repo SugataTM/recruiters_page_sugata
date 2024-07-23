@@ -79,6 +79,36 @@ body {
 .search_user_status{
     height: 30px;
 }
+.search-softlock-btn{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 22px 0 rgba(0, 0, 0, 0.19);
+}
+.search-confirm-btn{ 
+    background-color: #5d4bef;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 22px 0 rgba(0, 0, 0, 0.19);
+}
+.search-softlock-btn:hover{
+    background-color: #ff800086;
+    cursor: pointer;
+}
+.search-confirm-btn:hover{
+    background-color: #78a8e6;
+    cursor: pointer;
+}
+.search-softlock-btn:disabled{
+    background-color: #ff800086;
+}
+.search-confirm-btn:disabled{
+    background-color: #78a8e6;
+}
 /* .lock{
     background-color: yellow;
 }
@@ -114,6 +144,12 @@ body {
     background-color: #007bff;
     color: #fff;
     border: none;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.smallModal-content button:hover{
+    background-color: #3c9efa;;
+    cursor: pointer;
 }
 .smallModalDropdown{
     width: 100%;
