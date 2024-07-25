@@ -27,7 +27,7 @@
 </head>
 <body>
     <footer>
-    <h5>TECH HIREHUB&#8482; |<a href="https://www.techhirehub.com" target="_blank">  WWW.TECHHIREHUB.COM  </a>| &#169; ALL RIGHTS RESERVED</h5> 
+    <h5>TECH HIREHUB LTD&#8482; |<a href="https://www.techhirehub.com" target="_blank">  WWW.TECHHIREHUB.COM  </a>| &#169; ALL RIGHTS RESERVED</h5> 
     </footer>
    
 </body>
